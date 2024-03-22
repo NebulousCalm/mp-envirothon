@@ -11,8 +11,8 @@ export default function Footer(){
     <div className='footer-container'>
       <Link href="#"><FontAwesomeIcon icon={faEnvelope} className="footer-icons"/></Link>
       <Link href="#"><FontAwesomeIcon icon={faInstagram} className="footer-icons"/></Link>
-      <Link href="#"><FontAwesomeIcon icon={faGithub} className="footer-icons"/></Link>
-      <Link href="#"><Image src="/ablyv-logo.png" width={30} height={30} /></Link>
+      <Link href="https://www.github.com/NebulousCalm/mpcshs"><FontAwesomeIcon icon={faGithub} className="footer-icons"/></Link>
+      <Link href="https://www.github.com/Ablyv"><Image src="/ablyv-logo.png" width={30} height={30} /></Link>
     </div>
   )
 }
