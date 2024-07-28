@@ -6,14 +6,17 @@ export default function Home() {
   return (
     <main>
       <TopNav />
-        <div class="landing-header">
-          <Image src="/csta-logo.png" width={250} height={250} className="landing-img" />
+        <div className="landing-header">
+          <Image src="/env-logo.png" width={250} height={250} className="landing-img"  alt="logo"/>
 
           <div className="landing-text-container">
-            <h5><hr />MP CSHS</h5>
-            <h1>Myers Park, <br />Computer Science</h1>
+            <h5><hr />MP ENVIROTHON</h5>
+            <h1>Myers Park, <br />Envirothon Club</h1>
             <p>
-              Welcome to the <span>Myers Park</span> Computer Science Honors Society!. Lorem ipsum dolor sit amet consector i forgot the rest.
+              The <span>Envirothon®</span> is an environmental and natural resources conservation problem-solving,
+              leadership experience and academic competition for high school students across the United States,
+              Canada, China, and Singapore. Incorporating STEM principles, hands-on learning, and outdoor field experiences ,
+              the Envirothon fosters student learning in the areas of <span>AQUATIC ECOLOGY</span>, <span>FORESTRY</span>, <span>SOILS and LAND USE</span>, <span>WILDLIFE</span>, and <span>CURRENT ENVIRONMENTAL ISSUES</span>.
             </p>
             <h4>Feel free to reach out about questions, or attend meetings.</h4>
           </div>

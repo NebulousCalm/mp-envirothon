@@ -35,7 +35,6 @@ body{
 }
 
 .img-topnav-container img{
-  filter: invert(100%);
   width: 50px !important;
   height: 50px !important;
   padding: 10px;
@@ -86,12 +85,12 @@ body{
 }
 
 .landing-img{
-  border: 1px solid #fff;
-  border-radius: 50%;
-  filter: invert(100%);
+  aspect-ratio: 1/1;
+  height: auto;
+  min-width: 320px;
 }
 
-h1{
+.landing-text-container > h1{
     margin-top: 15px;
     font-size: 52px;
     margin-left: 100px;
@@ -122,7 +121,7 @@ h5 hr{
     width: 30vw;
     border-left: 1px solid #E74C3C;
     color: #fff;
-    span{
+    & span {
       color: var(--main-red);
       font-weight: bolder;
     }
@@ -132,3 +131,94 @@ h5 hr{
     margin-top: 10px;
     margin-left: 100px;
   }
+
+
+  table{
+    color: #fff;
+    font-family: 'Reddit Mono', sans-serif;
+    width: 50vw;
+    margin-top: 100px;
+    margin-left: 25vw;
+
+    & h1{
+      color: #E74C3C;
+      font-family: 'DM Sans', sans-serif;
+    }
+
+    & p{
+      border-left: 1px solid #E74C3C;
+      padding-left: 5px;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    & a{
+      color: dodgerblue;
+      text-decoration: none;
+    }
+
+    & ul{
+      color: #fff;
+      & li{
+        color: #fff;
+        margin-left: 16px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+.initial::first-letter{
+  initial-letter: 2;
+  margin: 0 5px 5px 0;
+  font-weight: 600;
+  font-style: italic;
+}
+
+table, tr, td{
+  border-collapse: collapse;
+  border: 2px solid #333;
+}
+
+td{
+  padding: 7px;
+}
+
+td:nth-child(odd){
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+}
+
+tr:nth-child(even){
+  background-color: #2A2B2C;
+}
+
+.text-container{
+  font-family: 'Reddit Mono', sans-serif;
+  width: 50vw;
+  margin-top: 100px;
+  margin-left: 25vw;
+
+  & h1{
+    color: #E74C3C;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  & p{
+    border-left: 1px solid #E74C3C;
+    padding-left: 5px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  & a{
+    color: dodgerblue;
+    text-decoration: none;
+  }
+
+  & ul{
+    margin-top: 16px;
+    & li{
+      margin-bottom: 10px;
+      color: #fff;
+      margin-left: 20px;
+    }
+  }
+}

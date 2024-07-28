@@ -10,9 +10,9 @@ export default function Footer(){
   return(
     <div className='footer-container'>
       <Link href="#"><FontAwesomeIcon icon={faEnvelope} className="footer-icons"/></Link>
-      <Link href="#"><FontAwesomeIcon icon={faInstagram} className="footer-icons"/></Link>
-      <Link href="https://www.github.com/NebulousCalm/mpcshs"><FontAwesomeIcon icon={faGithub} className="footer-icons"/></Link>
-      <Link href="https://www.github.com/Ablyv"><Image src="/ablyv-logo.png" width={30} height={30} /></Link>
+      <Link href="https://www.instagram.com/mp.envirothon/"><FontAwesomeIcon icon={faInstagram} className="footer-icons"/></Link>
+      <Link href="https://www.github.com/NebulousCalm/mp-envirothon"><FontAwesomeIcon icon={faGithub} className="footer-icons"/></Link>
+      <Link href="https://www.remind.com/join/@mpenvithon"><Image src="/remind-logo.png" width={30} height={30} /></Link>
     </div>
   )
 }
