@@ -245,4 +245,9 @@ tr:nth-child(even){
     width: 100vw;
     margin-left: 0;
   }
+
+  .topnav-links-container > a{
+    font-size: 12px;
+    border-left: 1px solid #fff;
+  }
 }
