@@ -222,3 +222,23 @@ tr:nth-child(even){
     }
   }
 }
+
+@media screen and (max-width: 500px){
+  .img-topnav-container img{
+    display: none;
+  }
+
+  .landing-header{
+    display: block;
+  }
+
+  .text-container{
+    margin-left: 10vw !important;
+    width: 90vw !important;
+  }
+
+  table{
+    width: 100vw;
+    margin-left: 0;
+  }
+}
